@@ -1,0 +1,11 @@
+numpy
+torch
+cplxmodule
+matplotlib
+jupyter
+tensorboard
+scikit-image
+pytorch_metric_learning
+pandas
+scipy
+seaborn
