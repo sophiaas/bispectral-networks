@@ -16,10 +16,10 @@ python setup.py install
 To download the datasets, run:
 
 ```
-wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=10w3fKdO0eWEe2KxZxpf8YFndXdCNNR8b' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=10w3fKdO0eWEe2KxZxpf8YFndXdCNNR8b" -O datasets.zip 
-rm -rf /tmp/cookies.txt
+pip install gdown
+gdown 10w3fKdO0eWEe2KxZxpf8YFndXdCNNR8b
 unzip datasets.zip
-rm -r datasets.zip
+rm datasets.zip
 ```
 
 
